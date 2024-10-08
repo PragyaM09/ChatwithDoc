@@ -47,6 +47,8 @@ brew install supabase/tap/supabase
 **Windows**
 
 ```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+iwr get.scoop.sh -useb | iex
 scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
 scoop install supabase
 ```
